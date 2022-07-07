@@ -29,9 +29,13 @@ res_json = response_deleteBook.json()
 print(res_json["msg"])
 assert res_json["msg"] == "book is successfully deleted"
 
-#Authentication
+# #Authentication
 url = "https://api.github.com/user"
-github_response = requests.get(url,verify=False,auth=('rahulshettcademy',getPassword()))
+headers = {}
+token="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"
+headers['Authorization'] = "Bearer {}".format(token)
+github_response = requests.get(url,verify=False,headers=headers)
 
 print(github_response.status_code)
+print(github_response.json())
 

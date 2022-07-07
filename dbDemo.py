@@ -23,7 +23,7 @@ for row in rows:  #('selenium', datetime.date(2020, 6, 7), 120, 'Africa')
     sum = sum + row[2]
 
 print(sum)
-assert sum == 361
+#assert sum == 361
 
 query = "update customerInfo set Location = %s where CourseName = %s"
 data = ("UK","Jmeter")
