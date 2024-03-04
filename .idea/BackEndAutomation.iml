@@ -7,6 +7,9 @@
     <orderEntry type="jdk" jdkName="Python 3.10 (BackEndAutomation)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="426d2ffa-d9a3-4903-95c0-b75848a60f8c" />
+  </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
   </component>
